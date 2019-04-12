@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Table Sorting and Dragging</title>
+    <link data-require="jqueryui" data-semver="1.10.0" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dragtable.css" />
+    <script data-require="jquery" data-semver="1.9.1" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script data-require="jqueryui" data-semver="1.10.0" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/jquery-ui.js"></script>
+    <script src="jquery.dragtable.js"></script>
+    <script src="jquery.tablesorter.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <table id="myTable">
+      <thead>
+        <tr>
+          <th><div class="dragHandle"></div>Name</td>
+          <th><div class="dragHandle"></div>Address</td>
+          <th><div class="dragHandle"></div>City</td>
+          <th><div class="dragHandle"></div>State</td>
+          <th><div class="dragHandle"></div>Zip</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="sortable">
+          <td>Dave Berthiaume</td>
+          <td>444 Main St.</td>
+          <td>Red Wing</td>
+          <td>MN</td>
+          <td>54259</td>
+        </tr>
+        <tr class="sortable">
+          <td>Tony Foerster</td>
+          <td>634 Park Av.</td>
+          <td>Minneapolis</td>
+          <td>MN</td>
+          <td>55222</td>
+        </tr>
+        <tr class="sortable">
+          <td>Washington Helps</td>
+          <td>13478 Upper 53rd St. W. #345</td>
+          <td>Madison</td>
+          <td>WI</td>
+          <td>45567</td>
+        </tr>
+        <tr class="sortable">
+          <td>Jeff Nordlie</td>
+          <td>20548 West 198th. St. E.</td>
+          <td>Chicago</td>
+          <td>IL</td>
+          <td>41709</td>
+        </tr>
+        <tr class="sortable">
+          <td>Josh Harris</td>
+          <td>2094 Parkway Terrace</td>
+          <td>Eden Prairie</td>
+          <td>MN</td>
+          <td>56576</td>
+        </tr>
+        <tr class="sortable">
+          <td>Matt Boland</td>
+          <td>89045 Wayside Place</td>
+          <td>Memphis</td>
+          <td>TN</td>
+          <td>38563</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>
